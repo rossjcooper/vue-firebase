@@ -1,5 +1,5 @@
-# Vue Firebase Project
-A quick project that tests how to use VueJS with Firebase to make a simple SPA.
+# Vue Firebase Chat Application
+A quick project that tests how to use VueJS with Firebase to make a simple chat application.
 
 [Demo here](https://vuejs-371b9.firebaseapp.com/)
 

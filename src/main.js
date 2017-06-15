@@ -9,6 +9,15 @@ Vue.config.productionTip = false
 Vue.use(VueFire)
 
 /* eslint-disable no-new */
+let eventHub = new Vue();
+Vue.mixin({
+    data: ()=>{
+      return{
+        eventHub : eventHub
+      }
+    }
+});
+
 new Vue({
   el: '#app',
   router,
